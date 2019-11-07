@@ -1,6 +1,6 @@
 <?php
 
-namespace ITIT2023HK\Optimus\Observer;
+namespace IT2023HK\Optimus\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
 
