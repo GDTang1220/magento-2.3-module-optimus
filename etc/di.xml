@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Cms\Model\Page\DataProvider">
+        <plugin name="SEPageDataProviderPlugin" type="2023HK\Optimus\Plugin\PageDataProviderPlugin" sortOrder="1" />
+    </type>
+    <type name="2023HK\Optimus\Observer\CmsPagePrepareSaveObserver">
+        <arguments>
+            <argument name="imageUploader" xsi:type="object">Magento\Catalog\CategoryImageUpload</argument>
+        </arguments>
+    </type>
+</config>

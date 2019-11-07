@@ -1,0 +1,39 @@
+<h1 class="supporting title">Slideshow with pager</h1>
+
+<div>
+    <ul class="rslides rslides-pager">
+        <li><a href="#"><img src="https://placehold.it/1240x380/eeeeee/cccccc?text=Slide1" alt=""></a></li>
+        <li><a href="#"><img src="https://placehold.it/1240x380/cccccc/eeeeee?text=Slide2" alt=""></a></li>
+        <li><a href="#"><img src="https://placehold.it/1240x380/eeeeee/cccccc?text=Slide3" alt=""></a></li>
+        <li><a href="#"><img src="https://placehold.it/1240x380/cccccc/eeeeee?text=Slide4" alt=""></a></li>
+    </ul>
+    <script type="text/javascript">
+        require(['jquery','responsiveslides','domReady!'], function($){
+            $(".rslides-pager").responsiveSlides({ auto: false, pager: true, speed: 1000 });
+        });
+    </script>
+</div>
+
+<br />
+<div class="sourceCode">
+<p><a class="showHtml" style="display: inline;" href="#"><?php echo __('Show code') ?></a></p>
+<div class="htmlCode moreText">
+<p>Copy &amp; paste the code below into the html view of your CMS page or static block in Magento</p>
+<textarea style="padding: .5em;" rows="10" cols="80">
+&#x3C;div&#x3E;
+    &#x3C;ul class=&#x22;rslides rslides-pager&#x22;&#x3E;
+        &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;img src=&#x22;https://placehold.it/1240x380/eeeeee/cccccc?text=Slide1&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+        &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;img src=&#x22;https://placehold.it/1240x380/cccccc/eeeeee?text=Slide2&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+        &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;img src=&#x22;https://placehold.it/1240x380/eeeeee/cccccc?text=Slide3&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+        &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;img src=&#x22;https://placehold.it/1240x380/cccccc/eeeeee?text=Slide4&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;/ul&#x3E;
+    &#x3C;script type=&#x22;text/javascript&#x22;&#x3E;
+        require([&#x27;jquery&#x27;,&#x27;responsiveslides&#x27;,&#x27;domReady!&#x27;], function($){
+            $(&#x22;.rslides-pager&#x22;).responsiveSlides({ auto: false, pager: true, speed: 1000 });
+        });
+    &#x3C;/script&#x3E;
+&#x3C;/div&#x3E;
+</textarea>
+<p><a class="hideHtml" href="#">Close html code</a></p>
+</div>
+</div>

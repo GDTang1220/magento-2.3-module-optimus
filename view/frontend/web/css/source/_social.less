@@ -1,0 +1,204 @@
+@social-icon__fontsize: 2.4rem;
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+
+    // Social channels
+    .c-social {
+        ul,
+        .footer.content & ul{
+
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            list-style: none none;
+            text-align: right;
+
+            > li {
+                margin: 0 2.4rem 0.5rem 0;
+                display: inline-block;
+                vertical-align: middle;
+    
+                a {
+                    &:link,
+                    &:hover,
+                    &:visited{
+                        text-decoration: none;
+                    }
+                }
+            }   
+        }
+    }
+
+    .c-social__channel{
+        font-size: @social-icon__fontsize;
+        span {
+            display: none;
+        }
+
+        &:before {
+            font-family: 'FontAwesome';
+        }
+
+    }
+    .social-facebook {
+        &:before {
+            content: '\f09a';
+        }
+        &:hover:before {
+            color: #3b5998!important;
+        }
+    }
+
+    .social-twitter {
+        &:before {
+            content: '\f099';
+        }
+        &:hover:before {
+            color: #55acee!important;
+        }
+    }
+
+    .social-instagram {
+        &:before {
+            content: '\f16d';
+        }
+        &:hover:before {
+            color: #c13584!important;
+        }
+    }
+
+    .social-linkedin {
+        &:before {
+            content: '\f0e1';
+        }
+        &:hover:before {
+            color: #007bb5!important;
+        }
+    }
+
+    .social-youtube {
+        &:before {
+            content: '\f16a';
+        }
+        &:hover:before {
+            color: #ff0000!important;
+        }
+    }
+
+    .social-pinterest {
+        &:before {
+            content: '\f231';
+        }
+        &:hover:before {
+            color: #bd081c!important;
+        }
+    }
+
+    .social-googleplus {
+        &:before {
+            content: '\f0d5';
+        }
+        &:hover:before {
+            color: #dd4b39!important;
+        }
+    }
+
+    .social-vimeo {
+        &:before {
+            content: '\f27d';
+        }
+        &:hover:before {
+            color: #1ab7ea!important;
+        }
+    }
+
+    .social-custom {
+        display: block;
+        width: 32px;
+        height: 32px;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    // Social sharing
+    .c-social-sharing {
+        margin: @indent__xs 0;
+
+        .c-social {
+
+            ul {
+                > li {
+                    margin-bottom: 0;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    .social-facebook {
+
+                        &:before {
+                            color: #3b5998!important;
+                        }
+                    }
+
+                    .social-twitter {
+
+                        &:before {
+                            color: #55acee!important;
+                        }
+                    }
+
+                    .social-instagram {
+
+                        &:before {
+                            color: #c13584!important;
+                        }
+                    }
+
+                    .social-linkedin {
+
+                        &:before {
+                            color: #007bb5!important;
+                        }
+                    }
+
+                    .social-youtube {
+
+                        &:before {
+                            color: #ff0000!important;
+                        }
+                    }
+
+                    .social-pinterest {
+
+                        &:before {
+                            color: #bd081c!important;
+                        }
+                    }
+
+                    .social-googleplus {
+
+                        &:before {
+                            color: #dd4b39!important;
+                        }
+                    }
+
+                    .social-vimeo {
+
+                        &:before {
+                            color: #1ab7ea!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
