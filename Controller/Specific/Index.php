@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace 2023HK\Optimus\Controller\Specific;
+namespace IT2023HK\Optimus\Controller\Specific;
 
 /**
  * Responsible for loading page content.
@@ -12,4 +12,4 @@ namespace 2023HK\Optimus\Controller\Specific;
  * This is a basic controller that only loads the corresponding layout file. It may duplicate other such
  * controllers, and thus it is considered tech debt. This code duplication will be resolved in future releases.
  */
-class Index extends \2023HK\Optimus\Controller\Index\Index { }
+class Index extends \IT2023HK\Optimus\Controller\Index\Index { }

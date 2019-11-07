@@ -3,7 +3,7 @@
     <body>
         <!-- Head (containing meta tags, override class) -->
         <referenceBlock name="head.additional">
-            <block class="2023HK\Optimus\Block\Opengraph\Page" name="opengraph.general" template="2023HK_Optimus::html/opengraph/general.phtml" />
+            <block class="IT2023HK\Optimus\Block\Opengraph\Page" name="opengraph.general" template="IT2023HK_Optimus::html/opengraph/general.phtml" />
         </referenceBlock>
     </body>
 </page>

@@ -14,10 +14,10 @@
     <body>
         <referenceBlock name="page.main.title" remove="true" />
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout-wide.phtml" name="optimus-content-layout-wide" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/page-wide-content.phtml" name="optimus-content-layout-page-wide-content" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/pagewide-invert.phtml" name="optimus-content-layout-pagewide-invert" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/pagewide-invert-ta-center.phtml" name="optimus-content-layout-pagewide-invert-ta-center" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout-wide.phtml" name="optimus-content-layout-wide" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/page-wide-content.phtml" name="optimus-content-layout-page-wide-content" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/pagewide-invert.phtml" name="optimus-content-layout-pagewide-invert" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/pagewide-invert-ta-center.phtml" name="optimus-content-layout-pagewide-invert-ta-center" />
         </referenceContainer>
     </body>
 </page>

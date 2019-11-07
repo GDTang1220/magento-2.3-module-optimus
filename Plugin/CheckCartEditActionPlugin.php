@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Plugin;
+namespace IT2023HK\Optimus\Plugin;
 
 class CheckCartEditActionPlugin
 {

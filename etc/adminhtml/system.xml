@@ -8,7 +8,7 @@
             <class>separator-top</class>
             <label>General</label>
             <tab>socialmedia</tab>
-            <resource>2023HK_Optimus::socialmedia_config</resource>
+            <resource>IT2023HK_Optimus::socialmedia_config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="1">
                 <label>General configuration</label>
                 <field id="enablesharing" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -34,7 +34,7 @@
             <class>separator-top</class>
             <label>Channels</label>
             <tab>socialmedia</tab>
-            <resource>2023HK_Optimus::socialmedia_config</resource>
+            <resource>IT2023HK_Optimus::socialmedia_config</resource>
             <group id="facebookchannel" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Facebook</label>
                 <field id="enablefacebooksharing" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -55,7 +55,7 @@
                 </field>
                 <field id="facebookicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Facebook icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -64,7 +64,7 @@
                 </field>
                 <field id="facebookogimage" type="image" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Facebook Og Image</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -89,7 +89,7 @@
                 </field>
                 <field id="twittericon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Twitter icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -110,7 +110,7 @@
                 </field>
                 <field id="instagramicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Instagram icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -135,7 +135,7 @@
                 </field>
                 <field id="linkedinicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Linkedin icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -156,7 +156,7 @@
                 </field>
                 <field id="youtubeicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Youtube icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -181,7 +181,7 @@
                 </field>
                 <field id="pinteresticon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Pinterest icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -206,7 +206,7 @@
                 </field>
                 <field id="googleplusicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Google+ icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>
@@ -227,7 +227,7 @@
                 </field>
                 <field id="vimeoicon" type="image" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Vimeo icon</label>
-                    <backend_model>2023HK\Optimus\Model\Config\Backend\Image</backend_model>
+                    <backend_model>IT2023HK\Optimus\Model\Config\Backend\Image</backend_model>
                     <upload_dir config="system/filesystem/media" scope_info="1">socialmedia</upload_dir>
                     <base_url type="media" scope_info="1">socialmedia</base_url>
                 </field>

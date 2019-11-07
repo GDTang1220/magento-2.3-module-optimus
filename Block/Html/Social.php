@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Html;
+namespace IT2023HK\Optimus\Block\Html;
 
 class Social extends \Magento\Framework\View\Element\Template
 {

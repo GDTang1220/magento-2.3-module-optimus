@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    '2023HK_Optimus',
+    'IT2023HK_Optimus',
     __DIR__
 );

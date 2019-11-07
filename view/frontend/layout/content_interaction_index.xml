@@ -20,10 +20,10 @@
             </action>
         </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/interaction.phtml" name="optimus-content-interaction" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/interaction/calltoaction.phtml" name="optimus-content-calltoaction" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/interaction/accordeon.phtml" name="optimus-content-interaction-accordeon" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/interaction/toggle.phtml" name="optimus-content-interaction-toggle" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/interaction.phtml" name="optimus-content-interaction" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/interaction/calltoaction.phtml" name="optimus-content-calltoaction" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/interaction/accordeon.phtml" name="optimus-content-interaction-accordeon" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/interaction/toggle.phtml" name="optimus-content-interaction-toggle" />
         </referenceContainer>
     </body>
 </page>

@@ -17,7 +17,7 @@
             </action>
         </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/index.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/index.phtml"/>
         </referenceContainer>
         <move element="page.main.title" destination="content" before="-"/>
     </body>

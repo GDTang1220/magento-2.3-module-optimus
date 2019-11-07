@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace 2023HK\Optimus\Controller\Index;
+namespace IT2023HK\Optimus\Controller\Index;
 
 /**
  * Responsible for loading page content.

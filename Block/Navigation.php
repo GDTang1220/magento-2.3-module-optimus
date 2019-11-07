@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Block;
+namespace IT2023HK\Optimus\Block;
 
 class Navigation extends \Magento\Catalog\Block\Navigation
 {

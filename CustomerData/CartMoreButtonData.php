@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\CustomerData;
+namespace IT2023HK\Optimus\CustomerData;
 
 use Magento\Customer\CustomerData\SectionSourceInterface;
 

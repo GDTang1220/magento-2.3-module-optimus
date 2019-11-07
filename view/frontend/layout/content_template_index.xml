@@ -19,7 +19,7 @@
             </action>
         </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/template.phtml" name="optimus-content-html" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/template.phtml" name="optimus-content-html" />
         </referenceContainer>
     </body>
 </page>

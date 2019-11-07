@@ -19,14 +19,14 @@
             </action>
         </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout.phtml" name="optimus-content-layout" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/columns-textonly.phtml" name="optimus-content-layout-columns-textonly" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/columns-empty.phtml" name="optimus-content-layout-columns-empty" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/columns-text-images.phtml" name="optimus-content-layout-columns-text-images" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/callouts.phtml" name="optimus-content-layout-callouts" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/columns-verticalcenter.phtml" name="optimus-content-layout-columns-verticalcenter" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/columns-maxwidth.phtml" name="optimus-content-layout-columns-maxwidth" />
-            <block class="Magento\Framework\View\Element\Template" template="2023HK_Optimus::content/layout/centered-icon.phtml" name="optimus-content-layout-centered-icon" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout.phtml" name="optimus-content-layout" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/columns-textonly.phtml" name="optimus-content-layout-columns-textonly" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/columns-empty.phtml" name="optimus-content-layout-columns-empty" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/columns-text-images.phtml" name="optimus-content-layout-columns-text-images" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/callouts.phtml" name="optimus-content-layout-callouts" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/columns-verticalcenter.phtml" name="optimus-content-layout-columns-verticalcenter" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/columns-maxwidth.phtml" name="optimus-content-layout-columns-maxwidth" />
+            <block class="Magento\Framework\View\Element\Template" template="IT2023HK_Optimus::content/layout/centered-icon.phtml" name="optimus-content-layout-centered-icon" />
         </referenceContainer>
     </body>
 </page>

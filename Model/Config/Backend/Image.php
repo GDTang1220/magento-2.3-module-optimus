@@ -4,7 +4,7 @@
  * System config image field backend model (with svg allowed)
  */
 
-namespace 2023HK\Optimus\Model\Config\Backend;
+namespace IT2023HK\Optimus\Model\Config\Backend;
 
 class Image extends \Magento\Config\Model\Config\Backend\Image
 {

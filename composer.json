@@ -1,5 +1,5 @@
 {
-  "name": "2023hk/magento-2.3-module-optimus",
+  "name": "IT2023HK/magento-2.3-module-optimus",
   "description": "Optimus module with enhancements to blank Magento theme",
   "type": "magento2-module",
   "license": [
@@ -16,7 +16,7 @@
           "registration.php"
       ],
       "psr-4": {
-          "2023HK\\Optimus\\": ""
+          "IT2023HK\\Optimus\\": ""
       }
   }
 }

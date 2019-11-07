@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="columns.top">
-            <block class="Magento\Framework\View\Element\Template" name="account-menu-toggle" template="2023HK_Optimus::customer/accountmenutoggle.phtml" />
+            <block class="Magento\Framework\View\Element\Template" name="account-menu-toggle" template="IT2023HK_Optimus::customer/accountmenutoggle.phtml" />
         </referenceContainer>
     </body>
 </page>

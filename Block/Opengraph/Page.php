@@ -1,8 +1,8 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Opengraph;
+namespace IT2023HK\Optimus\Block\Opengraph;
 
-class Page extends \2023HK\Optimus\Block\Opengraph\General
+class Page extends \IT2023HK\Optimus\Block\Opengraph\General
 {
 
     /**

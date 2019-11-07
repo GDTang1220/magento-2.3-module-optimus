@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Product;
+namespace IT2023HK\Optimus\Block\Product;
 
 class SocialSharing extends \Magento\Catalog\Block\Product\View
 {

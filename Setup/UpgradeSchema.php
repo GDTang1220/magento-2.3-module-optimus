@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Setup;
+namespace IT2023HK\Optimus\Setup;
 
 use Magento\Framework\Setup\UpgradeSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

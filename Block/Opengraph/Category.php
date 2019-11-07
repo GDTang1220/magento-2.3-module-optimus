@@ -1,8 +1,8 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Opengraph;
+namespace IT2023HK\Optimus\Block\Opengraph;
 
-class Category extends \2023HK\Optimus\Block\Opengraph\General
+class Category extends \IT2023HK\Optimus\Block\Opengraph\General
 {
     /**
      * @param \Magento\Framework\Registry $registry

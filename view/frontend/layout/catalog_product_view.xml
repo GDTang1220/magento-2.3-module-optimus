@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="product.info.social">
-            <block class="2023HK\Optimus\Block\Product\SocialSharing" name="product.info.socialsharing" template="2023HK_Optimus::product/view/social-sharing.phtml" after="product.info.mailto" />
+            <block class="IT2023HK\Optimus\Block\Product\SocialSharing" name="product.info.socialsharing" template="IT2023HK_Optimus::product/view/social-sharing.phtml" after="product.info.mailto" />
         </referenceContainer>
     </body>
 </page>

@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Opengraph;
+namespace IT2023HK\Optimus\Block\Opengraph;
 
 class General extends \Magento\Framework\View\Element\Template
 {

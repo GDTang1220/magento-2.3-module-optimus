@@ -4,12 +4,12 @@
 
         <!-- Head (containing meta tags) -->
         <referenceBlock name="head.additional">
-            <block class="2023HK\Optimus\Block\Opengraph\General" name="opengraph.general" template="2023HK_Optimus::html/opengraph/general.phtml" />
+            <block class="IT2023HK\Optimus\Block\Opengraph\General" name="opengraph.general" template="IT2023HK_Optimus::html/opengraph/general.phtml" />
         </referenceBlock>
 
         <!-- Footer (containing social) -->
         <referenceContainer name="footer" htmlClass="footer content colm-grid">
-            <block class="2023HK\Optimus\Block\Html\Social" name="social" template="2023HK_Optimus::html/social.phtml" after="-" />
+            <block class="IT2023HK\Optimus\Block\Html\Social" name="social" template="IT2023HK_Optimus::html/social.phtml" after="-" />
         </referenceContainer>
 
     </body>

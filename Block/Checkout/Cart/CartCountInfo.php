@@ -1,6 +1,6 @@
 <?php
 
-namespace 2023HK\Optimus\Block\Checkout\Cart;
+namespace IT2023HK\Optimus\Block\Checkout\Cart;
 
 class CartCountInfo extends \Magento\Framework\View\Element\Template
 {
